@@ -10,7 +10,7 @@ header {
   text-align: center;
   width: 101%;
   overflow-y: hidden;
-  height: 300px;
+  height: 250px;
   font-family: kinkie;
   color: white;
 }
@@ -39,7 +39,7 @@ div#texto {
   );
   border-image-slice: 1;
   text-align: center;
-  width: 160px;
+  width: fit-content;
   height: fit-content;
   margin: 0 auto;
   color: white;
@@ -147,4 +147,49 @@ button {
 @font-face {
   src: url(https://dl.dropbox.com/s/uougf9v63jmphoj/Jojoba.otf);
   font-family: jojoba;
+}
+
+@font-face {
+  font-family: "HelloLori Medium";
+  font-style: normal;
+  font-weight: normal;
+  src: local("HelloLori Medium"), url("fontes/HelloLori.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Grover Heavy Regular";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Grover Heavy Regular"),
+    url("fontes/Grover Heavy Regular.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Levitation Regular";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Levitation Regular"),
+    url("fontes/Levitation-7BnPB.woff") format("woff");
+}
+
+p#analice {
+  font-family: levitation Regular;
+  color: white;
+}
+p#marina {
+  font-family: HelloLori Medium;
+  color: white;
+}
+p#analice {
+  font-family: Grover Heavy Regular;
+  color: white;
+}
+
+img#PORRA {
+  width: auto;
+  height: 300px;
+}
+img#analice {
+  height: 350px;
+  width: auto;
 }
